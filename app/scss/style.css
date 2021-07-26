@@ -399,7 +399,6 @@ button:hover, .button:hover {
 }
 
 .faq {
-  visibility: hidden;
   background-color: black;
   color: white;
 }
