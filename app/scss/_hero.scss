@@ -1,0 +1,52 @@
+.hero {
+    @include breakpoint-up(large) {
+        display:flex;
+        align-items: center;
+    }
+
+    &__image {
+        background-image: url(/images/gym.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+
+        @include breakpoint-up(large) {
+            flex:1;
+            order: 2;
+            height: 41rem;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            line-height: 1.2;
+            padding-top: 1rem;
+            color: $black;
+            font-size: $font-l;
+        }
+        p {
+            font-size: $font-med;
+        }
+        @include breakpoint-up(large) {
+            flex: 1;  
+            order: 1;
+            padding-left: 12.5rem;
+            padding-right: 12.5rem;
+            h1 {
+                font-size: $font-xl;
+            }     
+            text-align: left;
+        }
+    }
+
+    &__cta {
+        width: 100%;
+        text-align: center;
+        @include breakpoint-up(large) {          
+            text-align: left;
+        }
+    }
+}

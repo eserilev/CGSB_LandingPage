@@ -1,0 +1,8 @@
+.faq {
+    visibility: hidden;
+    &__header {
+        text-align: center;
+    }
+    background-color: $black;
+    color: $white;
+}
