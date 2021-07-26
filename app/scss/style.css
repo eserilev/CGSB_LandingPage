@@ -317,7 +317,7 @@ button:hover, .button:hover {
 }
 
 .hero__image {
-  background-image: url(/images/gym.jpg);
+  background-image: url("../../images/gym.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -387,7 +387,7 @@ button:hover, .button:hover {
 }
 
 .academy__review:nth-of-type(odd) {
-  background-image: url(/images/bg-pattern-quotation.svg);
+  background-image: url("../../images/bg-pattern-quotation.svg");
   background-size: 2rem;
   background-position: bottom 1rem right 1rem;
   background-repeat: no-repeat;
