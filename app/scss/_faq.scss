@@ -2,6 +2,9 @@
     &__header {
         text-align: center;
     }
-    background-color: $black;
-    color: $white;
+    &__content {
+        background-color: $black;
+        color: $white;
+    }
+    
 }

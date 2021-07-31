@@ -29,6 +29,7 @@ h1, h2, h3 {
 a, a:visited, a:hover {
     text-decoration: none;
     color: $grayishBlue;
+    cursor: pointer;
 } 
 
 // Spacing
@@ -117,4 +118,13 @@ button, .button {
         display: none;
     }
 
+}
+
+// positions
+.relative {
+    position: relative !important;
+}
+
+.absolute {
+    position: absolute !important;
 }

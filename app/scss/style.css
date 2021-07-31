@@ -103,6 +103,7 @@ h1, h2, h3 {
 a, a:visited, a:hover {
   text-decoration: none;
   color: #9698a6;
+  cursor: pointer;
 }
 
 .container {
@@ -195,6 +196,14 @@ button:hover, .button:hover {
   .hide-for-desktop {
     display: none;
   }
+}
+
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute !important;
 }
 
 .header.open .header__burgermenu > span:first-child {
@@ -398,12 +407,101 @@ button:hover, .button:hover {
   color: black;
 }
 
-.faq {
+.faq__header {
+  text-align: center;
+}
+
+.faq__content {
   background-color: black;
   color: white;
 }
 
-.faq__header {
+.schedule__header {
   text-align: center;
+  padding-bottom: 1rem;
+}
+
+.schedule__header img {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 5rem;
+}
+
+.schedule__header h1 {
+  padding-top: 1rem;
+}
+
+.schedule nav {
+  position: relative;
+  background-color: white;
+  padding-top: .1rem;
+  padding-bottom: 1.0625rem;
+}
+
+.schedule__links a {
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: black;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.schedule__links a:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.schedule__links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  background: black;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.schedule__links a:hover {
+  color: black;
+}
+
+.schedule__links a:hover::before {
+  opacity: 1;
+}
+
+.schedule__card {
+  position: relative;
+}
+
+.schedule__card__header {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.schedule__card__header h1 {
+  padding-top: 1rem;
+}
+
+.schedule__card__content {
+  position: absolute;
+  visibility: hidden;
+}
+
+.schedule__card__content__item {
+  padding: 1.5rem;
+}
+
+.schedule__card__content__item:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+.schedule__card__content__item:nth-child(even) {
+  background-color: white;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+.schedule {
+    &__header {
+        text-align: center;
+        padding-bottom: 1rem;
+        img {
+            padding-right: 1rem;
+            padding-left: 1rem;
+            height: 5rem;
+        }
+        h1 {
+            padding-top: 1rem;
+        }
+    }
+    nav {
+        position: relative;
+        background-color: $white;
+        padding-top: .1rem;
+        padding-bottom: 1.0625rem;
+    }
+
+    
+    &__links {
+        a {
+            position: relative;
+            font-size: $font-sm;
+            font-weight: 300;
+            color: $black;
+            transition: color 300ms ease-in-out;
+            &:not(:last-child) {
+                margin-right:1.5rem;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 5px;
+                left: 0;
+                right: 0;
+                bottom: -30px;
+                background: $black;
+                opacity: 0;
+                transition: opacity 300ms ease-in-out;
+            }
+
+            &:hover {
+                color: $black;
+                &::before {        
+                    opacity: 1;       
+                }
+            }
+        }
+    }
+    &__card {
+        position: relative;
+        &__header {
+            text-align: center;
+            padding-top: 1.5rem;
+            h1 {
+                padding-top: 1rem;
+            }
+        }
+        &__content {     
+            position: absolute;    
+            visibility: hidden;
+           
+            &__item {
+                padding: 1.5rem;
+                &:nth-child(odd) {
+                    background-color: $black;
+                    color: $white;
+                }
+                &:nth-child(even) {
+                    background-color: $white;
+                    color: $black;
+                }
+            }
+        }
+       
+    }
+   
+}
