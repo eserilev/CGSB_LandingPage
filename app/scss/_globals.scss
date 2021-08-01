@@ -24,6 +24,16 @@ h1, h2, h3 {
     margin-top: 0px;
 }
 
+input {
+    font-family: 'Public Sans', sans-serif;
+    padding: .625rem;
+    margin: .3rem;
+    border-radius: 1rem;
+    &:focus-visible {
+        outline: none;
+    }
+}
+
 
 
 a, a:visited, a:hover {

@@ -1,0 +1,85 @@
+.modal {
+    z-index:2;
+    visibility: hidden;
+    position: fixed;
+    background: $white;
+    padding: 1.625rem;
+    top: 9rem;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:5px;
+    @include breakpoint-up(large) {
+        width:30rem;
+    }
+    &__input {
+        width:100%;
+        display: block;
+        color: $black;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        > input {
+            width: 15rem;
+        }
+        > select {
+            width: 15rem;
+            padding: .625rem;    
+            margin: .3rem;
+        }
+    }
+    &__exit {
+        float: right;
+        cursor: pointer;
+        > span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $black;
+            transform-origin: 8px 1px;
+            &:first-child {
+                transform: rotate(45deg);        
+                margin-bottom: 5px;
+            }
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }   
+    }
+    &__header {
+       
+        text-align:center;
+        h1 {
+            margin: 0.5rem;
+        }
+        p {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+    &__action {
+        display: flex;
+        flex-direction: column;
+        padding: .625rem;
+        color: $black;
+        text-align: center;
+        img {
+            margin-top: 1.5rem;
+            height: 10rem;
+        }
+        button {
+            width: 15rem;
+        }
+    }
+}
+
+.overlay {
+    
+    z-index:1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient($black, transparent);
+}

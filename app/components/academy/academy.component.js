@@ -3,7 +3,7 @@ const academyTemplate = document.createElement('template');
 academyTemplate.innerHTML = `
 <link rel="stylesheet" type="text/css" href="app/scss/style.css">
 <section class="academy container container--pall">
-    <div class="academy__header flex">
+    <div class="academy__header">
         <h1>The Academy</h1>
     </div>
     <div class="academy__review"></div>
