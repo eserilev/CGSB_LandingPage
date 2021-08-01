@@ -1,0 +1,12 @@
+{
+    "faqs": [{
+        "question": "What is Brazilian Jiu Jitsu?",
+        "answer": "<p>Brazilian Jiu-Jitsu is a martial art and combat sport based on ground fighting and submission holds. It focuses on the skill of taking an opponent to the ground, controlling one's opponent, gaining a dominant position, and using a number of techniques to force them into submission via joint locks or chokeholds.</p>"
+    }, {
+        "question":"I am out of shape, do I need to get in shape before I start training jiu jitsu?",
+        "answer":"<p>Short answer, no.</p><p>BJJ works for multiple body types, whether you’re short and slim or tall and heavy. You don’t get in shape to do BJJ — you get in shape by doing BJJ!</p><p>If you have any pre exisiting health conditions, please consult a physician before starting a new exercise program.</p>"
+    }, {
+        "question": "Do you offer discounts for active duty millitary, police officers and firefighters?",
+        "answer": "<p>Yes we do! Please reach out to learn more.</p>"
+    }]
+}

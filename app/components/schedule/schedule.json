@@ -1,0 +1,70 @@
+{
+    "mondayWednesdayFriday": [{
+        "name": "Adult BJJ",
+        "start": "9:00AM",
+        "end": "10:00AM"
+    }, {
+        "name": "Open Mat",
+        "start": "10:00AM",
+        "end": "10:30AM"
+    }, {
+        "name": "Adult BJJ",
+        "start": "10:30AM",
+        "end": "12:00PM"
+    }, {
+        "name": "Open Mat",
+        "start": "12:00PM",
+        "end": "1:00PM"
+    }, {
+        "name": "Kids BJJ (Age 5-7)",
+        "start": "4:15PM",
+        "end": "5:00PM"
+    }, {
+        "name": "Kids BJJ (Age 8-10)",
+        "start": "5:00PM",
+        "end": "5:45PM"
+    }, {
+        "name": "Kids BJJ (Age 11-13)",
+        "start": "5:45PM",
+        "end": "6:30PM"
+    }, {
+        "name": "Adult BJJ",
+        "start": "6:30PM",
+        "end": "8:00PM"
+    }, {
+        "name": "Open Mat",
+        "start": "8:00PM",
+        "end": "9:30PM"
+    }],
+    "tuesdayThursday": [{
+        "name": "Adult BJJ",
+        "start": "9:00AM",
+        "end": "10:00AM"
+    }, {
+        "name": "Open Mat",
+        "start": "10:00AM",
+        "end": "10:30AM"
+    }, {
+        "name": "Adult BJJ",
+        "start": "10:30AM",
+        "end": "12:00PM"
+    },  {
+        "name": "Open Mat",
+        "start": "12:00PM",
+        "end": "1:00PM"
+    }, {
+        "name": "Adult BJJ",
+        "start": "6:30PM",
+        "end": "8:00PM"
+    }, {
+        "name": "Open Mat",
+        "start": "8:00PM",
+        "end": "9:30PM"
+    }],
+    "saturday": [{
+        
+        "name": "Open Mat",
+        "start": "10:00AM",
+        "end": "12:00PM"     
+    }]
+}

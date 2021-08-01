@@ -1,0 +1,22 @@
+.academy {
+    &__review {
+       
+        &__card {
+            background-color: $black;
+            color: $white;
+            fill: $white;
+            &:nth-of-type(odd) {
+                background-image: url('../../images/bg-pattern-quotation.svg');
+                background-size: 2rem;
+                background-position: bottom 1rem right 1rem;
+                background-repeat: no-repeat; 
+            }
+            &:nth-of-type(even) {
+                background-color: $white;
+                color: $black;
+            }
+        }
+        
+       
+    }
+}

@@ -1,0 +1,22 @@
+.faq {
+    &__header {
+        text-align: center;
+    }
+    &__content {
+        background-color: $white;
+        &__card {
+            
+            &:nth-child(odd) {
+                background-color: $black;
+                color: $white;
+            }
+            
+            &:nth-child(even) {
+                background-color: $white;
+                color: $black;
+            }
+        }
+        
+    }
+    
+}

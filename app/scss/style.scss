@@ -3,8 +3,8 @@
 @import "animations";
 
 @import "globals";
-@import "header";
-@import "hero";
-@import "academy";
-@import "faq";
-@import "schedule"
+@import "navigation";
+@import "../components/hero/hero.component";
+@import "../components/academy/academy.component";
+@import "../components/faq/faq.component";
+@import "../components/schedule/schedule.component"

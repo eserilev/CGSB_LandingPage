@@ -314,6 +314,10 @@ button:hover, .button:hover {
   background: linear-gradient(black, transparent);
 }
 
+.hero {
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 64em) {
   .hero {
     display: -webkit-box;
@@ -389,20 +393,20 @@ button:hover, .button:hover {
   }
 }
 
-.academy__review {
+.academy__review__card {
   background-color: black;
   color: white;
   fill: white;
 }
 
-.academy__review:nth-of-type(odd) {
+.academy__review__card:nth-of-type(odd) {
   background-image: url("../../images/bg-pattern-quotation.svg");
   background-size: 2rem;
   background-position: bottom 1rem right 1rem;
   background-repeat: no-repeat;
 }
 
-.academy__review:nth-of-type(even) {
+.academy__review__card:nth-of-type(even) {
   background-color: white;
   color: black;
 }
@@ -412,8 +416,17 @@ button:hover, .button:hover {
 }
 
 .faq__content {
+  background-color: white;
+}
+
+.faq__content__card:nth-child(odd) {
   background-color: black;
   color: white;
+}
+
+.faq__content__card:nth-child(even) {
+  background-color: white;
+  color: black;
 }
 
 .schedule__header {
@@ -473,6 +486,12 @@ button:hover, .button:hover {
   opacity: 1;
 }
 
+@media (min-width: 64em) {
+  .schedule__links a {
+    font-size: 1.725rem;
+  }
+}
+
 .schedule__card {
   position: relative;
 }
@@ -487,8 +506,7 @@ button:hover, .button:hover {
 }
 
 .schedule__card__content {
-  position: absolute;
-  visibility: hidden;
+  position: relative;
 }
 
 .schedule__card__content__item {

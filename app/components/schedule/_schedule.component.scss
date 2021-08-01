@@ -22,7 +22,7 @@
     &__links {
         a {
             position: relative;
-            font-size: $font-sm;
+            font-size: $font-sm;      
             font-weight: 300;
             color: $black;
             transition: color 300ms ease-in-out;
@@ -49,6 +49,9 @@
                     opacity: 1;       
                 }
             }
+            @include breakpoint-up(large) {
+                font-size: $font-l;
+            }
         }
     }
     &__card {
@@ -61,8 +64,7 @@
             }
         }
         &__content {     
-            position: absolute;    
-            visibility: hidden;
+            position: relative;
            
             &__item {
                 padding: 1.5rem;
