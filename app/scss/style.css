@@ -232,6 +232,7 @@ button:hover, .button:hover {
 }
 
 .header nav {
+  z-index: 2;
   position: relative;
   background-color: white;
   padding-top: 1.0625rem;
@@ -262,6 +263,7 @@ button:hover, .button:hover {
 }
 
 .header__menu {
+  z-index: 2;
   position: absolute;
   background: white;
   padding: 1.625rem;
@@ -316,6 +318,7 @@ button:hover, .button:hover {
 }
 
 .header .overlay {
+  z-index: 1;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -540,7 +543,7 @@ button:hover, .button:hover {
 }
 
 .modal {
-  z-index: 2;
+  z-index: 3;
   visibility: hidden;
   position: fixed;
   background: white;
@@ -644,7 +647,7 @@ button:hover, .button:hover {
 }
 
 .overlay {
-  z-index: 1;
+  z-index: 2;
   position: fixed;
   top: 0;
   bottom: 0;

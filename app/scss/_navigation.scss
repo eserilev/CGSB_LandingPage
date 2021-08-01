@@ -19,6 +19,7 @@
     }
 
     nav {
+        z-index: 2;
         position: relative;
         background-color: $white;
         padding-top: 1.0625rem;
@@ -48,6 +49,7 @@
     }
     
     &__menu {
+        z-index:2;
         position: absolute;
         background: $white;
         padding: 1.625rem;
@@ -99,6 +101,7 @@
 
 
     .overlay {
+        z-index:1;
         position: fixed;
         top: 0;
         bottom: 0;
